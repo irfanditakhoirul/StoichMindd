@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f172a; /* Slate 900 */
+  --color-primary-light: #1e293b; /* Slate 800 */
+  --color-accent: #10b981; /* Emerald 500 */
+  --color-accent-hover: #059669; /* Emerald 600 */
+  --color-background: #f8fafc; /* Slate 50 */
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
