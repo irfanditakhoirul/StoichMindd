@@ -22,7 +22,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/StoichMindd/">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route 
